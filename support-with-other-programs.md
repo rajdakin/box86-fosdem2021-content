@@ -1,14 +1,3 @@
----
-title: box86
-themes:
- - Gaming
-website: https://ptitseb.github.io/box86/
-logo: stands/box86/logo.png
-description: |
-    A list of support with other programs.
-
-layout: stand
----
 ## Unity game emulation {#unity}
 
 Running Unity games is a hit or miss for now. Unity uses Mono (which uses signals that are not well emulated enough),
