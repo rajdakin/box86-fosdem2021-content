@@ -3,7 +3,7 @@ title: box86
 themes:
  - Gaming
 website: https://ptitseb.github.io/box86/
-logo: /stands/box86/logo.png
+logo: stands/box86/logo.png
 description: |
     A linux userspace x86 emulator with a twist.
 
