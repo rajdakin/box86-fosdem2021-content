@@ -23,18 +23,7 @@ faster than only using the interpreter.
 Many games already work, for example: WorldOfGoo, Airline Tycoon Deluxe, and FTL. Many of the GameMaker Linux games
 also run fine. (there's a long list, among them are UNDERTALE, A Risk of Rain, and Cook Serve Delicious)
 
-Here are 6 videos, the first 2 videos are videos of "Airline Tycoon Deluxe" and "Heretic 2" running on a GigaHertz
-OpenPandora (the second one is using the dynarec), and the next 2 videos are videos of "Bit.Trip.Runner" and
-"Neverwinter Night" running on an ODroid XU4 (without dynarec), and the last 2 videos are on on a Pi4: Shovel Knight
-(video from [@ITotalJustice](https://github.com/ITotalJustice)) and Freedom Planet (video from
-[@djazz](https://www.youtube.com/channel/UCoak0PlSYIv9PA-iMqqqa1Q)), also without dynarec.
-
-{{< youtube id="bLt0hMoFDLk" title="Airline Tycoon Deluxe" >}}
-{{< youtube id="MM7kWYts7IA" title="Heretic 2 w/ dynarec" >}}
-{{< youtube id="8hr71S029Hg" title="Bit.Trip.Runner" >}}
-{{< youtube id="B4YN37z3-ws" title="Neverwinter Night" >}}
-{{< youtube id="xk8Q30mxqPg" title="Shovel Knight" >}}
-{{< youtube id="_QMRMVvYrqU" title="Freedom Planet" >}}
+[Here is a page listing two performance tests on box86.]({{ relref "performances.md" }})
 
 You can find many more box86 video on the [PI Lab Channel](https://www.youtube.com/channel/UCgfQjdc5RceRlTGfuthBs7g).
 
