@@ -1,3 +1,7 @@
+---
+title: "About"
+---
+
 ## Linux Userspace x86 Emulator with a twist {#title}
 
 box86 lets you run x86 Linux programs (such as games) on non-x86 Linux, like ARM (host system needs to be 32bit little-endian).

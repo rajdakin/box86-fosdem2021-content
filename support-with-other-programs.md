@@ -1,3 +1,7 @@
+---
+title: "Support with other programs"
+---
+
 ## Unity game emulation {#unity}
 
 Running Unity games is a hit or miss for now. Unity uses Mono (which uses signals that are not well emulated enough),
