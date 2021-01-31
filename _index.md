@@ -23,4 +23,5 @@ new_this_year: |
     </p>
 
 layout: stand
+chatroom: box86
 ---
