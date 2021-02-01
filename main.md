@@ -23,7 +23,7 @@ faster than only using the interpreter.
 Many games already work, for example: WorldOfGoo, Airline Tycoon Deluxe, and FTL. Many of the GameMaker Linux games
 also run fine. (there's a long list, among them are UNDERTALE, A Risk of Rain, and Cook Serve Delicious)
 
-[Here is a page listing two performance tests on box86.]({{ relref "performances.md" }})
+[Here is a page listing two performance tests on box86.]({{< relref "performances.md" >}})
 
 You can find many more box86 video on the [PI Lab Channel](https://www.youtube.com/channel/UCgfQjdc5RceRlTGfuthBs7g).
 
