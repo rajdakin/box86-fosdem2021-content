@@ -17,10 +17,8 @@ showcase: |
 new_this_year: |
     <p>
      box86 is targeted towards 32bits.
-     While compatibility and speed can be improved, the support of 16bits code (for Wine) is probably the last missing feature for box86.
-     <br>
-     After that, box64 will be targeted toward 64bits apps.
-     It will be a different application, and will allow similar principles with native use of ARM64 native libs directly on x86_64 linux apps.
+     Compatibility and speed have dramatically improved this year.
+     There is a now a fast Dynarec, and box86 can even run Wine (the x86 version), opening the door to many more programs and games!
     </p>
 
 layout: stand
