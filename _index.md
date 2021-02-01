@@ -12,6 +12,7 @@ showcase: |
     <p>Discover new possibilties for your RaspberryPI 4 and all other ARM SBC with box86.<br>
     Playing FTL or Into the Breach, Unreal Tournament 99 or 2004, or racing a few laps on Flatout (to name just a few) becomes possible on a small SBC.</p>
     <p>See <a href="/stands/box86/main">this page</a> for more informations.</p>
+    <p>Also, box86 can be compiled from source easily, they are at <a href="https://github.com/ptitSeb/box86">https://github.com/ptitSeb/box86</a>!</p>
 
 new_this_year: |
     <p>
