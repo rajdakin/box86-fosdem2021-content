@@ -41,8 +41,8 @@ to install it on Debian and Debian's deriatives).
 
 Wine is now partly supported. Wine integrated program all runs, and some windows programs and games now runs fine.
 Don't forget most Windows games use Direct3D, this may require a complete OpenGL driver and as high profile as possible
-(and gl4es with ES2 backend have issues with Wine for now). Also, vulkan is not wrapped on box86, so vk3d is not usable
-yet, even if supported by the hardware.
+(and gl4es with ES2 backend have issues with Wine for now). Also, Vulkan is wrapped but mostly untested on box86
+(tested on Pi4 and it doesn't work because of the unstability of the Vulkan driver itself).
 
 *Note:* if you plan to use box86 with Wine on Raspberry Pi 3 or earlier, those models use a default OS that have a
 kernel with a 2/2 Split (meaning 2G of space for user program, and 2G of space for the Kernel). This is not compatible
