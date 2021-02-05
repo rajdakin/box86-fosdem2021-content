@@ -34,6 +34,13 @@ Compatibility list is there: [https://github.com/ptitSeb/box86-compatibility-lis
 Note that this project is not to be mistaken with [86box](https://github.com/86Box/86Box), a nice "Full system"
 emulator specialized in early (to fairly recent) PC hardware.
 
+<!-- In-place HTML -->
+<video width="720" height="90" controls>
+	<source src="https://video.fosdem.org/2021/stands/box86/box86_video1.mp4" type="video/mp4">
+	<source src="https://video.fosdem.org/2021/stands/box86/box86_video1.webm" type="video/webm">
+	Your browser does not support the video tag.
+</video>
+
 ## Notes about 64-bit platforms {#about-64bits}
 
 Because box86 works by directly translating function calls from x86 to host system, the host system (the one box86 is
