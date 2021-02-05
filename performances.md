@@ -55,14 +55,14 @@ I'll report only the last number (so here 5733), and compare, per hardware, betw
 
 ## Result {#7z-res}
 
-| Hardware description | Native | Emulated | Speed % |
-| --- | --- | --- | --- |
-| Pandora Cortex-a8 1GHz | 655 | 282 | 43% |
-| Pyra Cortex-a15 1.5GHz x2 (3) | 2510 | 976 | 39% |
-| RaspberyPI4 1.5GHz x4 | 5733 | 2912 | 51% |
-| ODroid XU4 2Ghz/1.3Ghz x4/4 (1) | 3906 | 2374 | 61% |
-| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 (2) | 6912 | 3367 | 49% |
-| FT2000/4 2.6GHz x4 (2)(4) | 8280 | 4595 | 55% |
+| Hardware description |    | Native |    | Emulated |    | Speed % |
+| --- | --- | --- | --- | --- | --- | --- |
+| Pandora Cortex-a8 1GHz |    | 655 |    | 282 |    | 43% |
+| Pyra Cortex-a15 1.5GHz x2 (3) |    | 2510 |    | 976 |    | 39% |
+| RaspberyPI4 1.5GHz x4 |    | 5733 |    | 2912 |    | 51% |
+| ODroid XU4 2Ghz/1.3Ghz x4/4 (1) |    | 3906 |    | 2374 |    | 61% |
+| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 (2) |    | 6912 |    | 3367 |    | 49% |
+| FT2000/4 2.6GHz x4 (2)(4) |    | 8280 |    | 4595 |    | 55% |
 
 \
 (1) limiting bench to 4 cores only. \
@@ -100,20 +100,20 @@ get 37.11
 
 ## Result {#dav1d-res}
 
-| Hardware description | Native | Emulated | Speed % |
-| --- | --- | --- | --- |
-| Pandora Cortex-a8 1GHz (1) | 37.11 | 9.43 | 25% |
-| Pyra Cortex-a15 1.5GHz x2 1 thread (1) | 111.51 | 34.90 | 31% |
-| Pyra Cortex-a15 1.5GHz x2 2 threads (1) | 141.94 | 43.97 | 31% |
-| RaspberyPI4 1.5GHz x4 1 thread | 90.52 | 43.18 | 48% |
-| RaspberyPI4 1.5GHz x4 2 threads | 164.53 | 84.81 | 52% |
-| RaspberyPI4 1.5GHz x4 4 threads | 189.40 | 103.30 | 55% |
-| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 1 thread (1)(2) | 196.57 | 55.80 | 28% |
-| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 2 threads (1)(2) | 281.97 | 58.34 | 21% |
-| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 4 threads (1)(2) | 374.00 | 93.85 | 25% |
-| FT2000/4 2.6GHz x4 1 thread (1)(2) | 290.10 | 75.74 | 26% |
-| FT2000/4 2.6GHz x4 2 threads (1)(2) | 424.93 | 128.28 | 30% |
-| FT2000/4 2.6GHz x4 4 threads (1)(2) | 462.49 | 146.87 | 32% |
+| Hardware description |    | Native |    | Emulated |    | Speed % |
+| --- | --- | --- | --- | --- | --- | --- |
+| Pandora Cortex-a8 1GHz (1) |    | 37.11 |    | 9.43 |    | 25% |
+| Pyra Cortex-a15 1.5GHz x2 1 thread (1) |    | 111.51 |    | 34.90 |    | 31% |
+| Pyra Cortex-a15 1.5GHz x2 2 threads (1) |    | 141.94 |    | 43.97 |    | 31% |
+| RaspberyPI4 1.5GHz x4 1 thread |    | 90.52 |    | 43.18 |    | 48% |
+| RaspberyPI4 1.5GHz x4 2 threads |    | 164.53 |    | 84.81 |    | 52% |
+| RaspberyPI4 1.5GHz x4 4 threads |    | 189.40 |    | 103.30 |    | 55% |
+| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 1 thread (1)(2) |    | 196.57 |    | 55.80 |    | 28% |
+| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 2 threads (1)(2) |    | 281.97 |    | 58.34 |    | 21% |
+| Pine64 RockPro64 RK3399 2Ghz/1.5Ghz x2/4 4 threads (1)(2) |    | 374.00 |    | 93.85 |    | 25% |
+| FT2000/4 2.6GHz x4 1 thread (1)(2) |    | 290.10 |    | 75.74 |    | 26% |
+| FT2000/4 2.6GHz x4 2 threads (1)(2) |    | 424.93 |    | 128.28 |    | 30% |
+| FT2000/4 2.6GHz x4 4 threads (1)(2) |    | 462.49 |    | 146.87 |    | 32% |
 
 \
 (1) native build of dav1d is custom build, with probably more optimisation than in regular version from distribution. \
@@ -134,15 +134,15 @@ The `glmark2` score is simply used here, at default windowed 800x600 resolution 
 
 ## Result {#glmark2-res}
 
-| Hardware description | Native | Emulated | Speed % |
-| --- | --- | --- | --- |
-| Pandora Cortex-a8 1GHz gl4es | 85 | 84 | 99% |
-| Pyra Cortex-a15 1.5GHz x2 gl4es | 266 | 258 | 97% |
-| RaspberyPI4 V3D 4.2 Mesa 20.3 | 110 | 110 | 100% |
-| RaspberyPI4 V3D 4.2 Mesa 20.2 | 122 | 120 | 98% |
-| ODroid XU4 2Ghz x4 gl4es (1) | 54 | 54 | 100% |
-| PinePro64 RK3399 2Ghz.1.5Ghz x2.4 mesa 21.1 (2) | 577 | 565 | 98% |
-| FT2000/4 2.6GHz x4 Radeon mesa 18.3 (2)(3) | 1149 | 1093 | 95% |
+| Hardware description |    | Native |    | Emulated |    | Speed % |
+| --- | --- | --- | --- | --- | --- | --- |
+| Pandora Cortex-a8 1GHz gl4es |    | 85 |    | 84 |    | 99% |
+| Pyra Cortex-a15 1.5GHz x2 gl4es |    | 266 |    | 258 |    | 97% |
+| RaspberyPI4 V3D 4.2 Mesa 20.3 |    | 110 |    | 110 |    | 100% |
+| RaspberyPI4 V3D 4.2 Mesa 20.2 |    | 122 |    | 120 |    | 98% |
+| ODroid XU4 2Ghz x4 gl4es (1) |    | 54 |    | 54 |    | 100% |
+| PinePro64 RK3399 2Ghz.1.5Ghz x2.4 mesa 21.1 (2) |    | 577 |    | 565 |    | 98% |
+| FT2000/4 2.6GHz x4 Radeon mesa 18.3 (2)(3) |    | 1149 |    | 1093 |    | 95% |
 
 \
 (1) VSync cannot be disabled, lowering results. \
@@ -156,10 +156,10 @@ acheived, with all result here being between 95% and 100% of native speed.
 
 # Box86 speed {#speed}
 
-So in real world applications and games, things will in between thoses 2 extreme tests cases.
+So in real world applications and games, things will be in between those two extreme test cases.
 
 Note that things like SSE opcodes are converted to NEON ones, and most of the time a 1:1 conversion is done, making
-optimized SSE/SSE2 codes quite optimal in box86. It's more difficult with SSE3/SSSE3, and converted code get slower. \
+optimized SSE/SSE2 codes quite optimal in box86. It's more difficult with SSE3/SSSE3, and converted code gets slower. \
 Wrapped functions gets native speeds, and emulated cpu will be at least 50% of what it could be if it was a native app
 (or even lower if the app/games contains ASM hand optimized routines). The resulting speed will be something in between
 depending of the percentage of emulated code vs wrapped lib ratio...
