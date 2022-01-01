@@ -16,9 +16,9 @@ showcase: |
 
 new_this_year: |
     <p>
-     box86 is targeted towards 32bits.
-     Compatibility and speed have dramatically improved this year.
-     There is a now a fast Dynarec, and box86 can even run Wine (the x86 version), opening the door to many more programs and games!
+     box64 is targeted towards 64bits.
+     Compatibility and speed have also dramatically improved this year.
+     box64 can even run Wine (the x64 version), opening the door to many more programs and games!
     </p>
 
 layout: stand
