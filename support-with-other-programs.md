@@ -4,6 +4,8 @@ title: "Support with other programs"
 
 ## Unity game emulation {#unity}
 
+[TODO: check for updates, update for box64]
+
 Running Unity games is a hit or miss for now. Unity uses Mono (which uses signals that are not well emulated enough),
 and a runtime embedded in the main binary. A solution would be to use a native version of the libmono library used by
 Unity (it can be found [here](https://github.com/Unity-Technologies/mono) and needs to be built from source). But the
@@ -18,6 +20,8 @@ computers) for now.
 be correct now.
 
 ## Steam {#steam}
+
+[TODO: check for updates, update for box64]
 
 Linux Steam's can run now with box86. But it's still a bit unstable, and not everything works. First problem is steam
 crashing after the 'Sign in' window, if you encounter this issue, you may need to add libappindicator. Installing the
@@ -39,6 +43,8 @@ to install it on Debian and Debian's deriatives).
 
 ## Wine {#wine}
 
+[TODO: check for updates, update for box64]
+
 Wine is now partly supported. Wine integrated program all runs, and some windows programs and games now runs fine.
 Don't forget most Windows games use Direct3D, this may require a complete OpenGL driver and as high profile as possible
 (and gl4es with ES2 backend have issues with Wine for now). Also, Vulkan is wrapped but mostly untested on box86
@@ -51,4 +57,4 @@ split. Use your favorite search engine for instructions on how to do that.
 
 ## Other programs {#others}
 
-See also this [Github repo's issues](https://github.com/ptitSeb/box86-compatibility-list/issues).
+See also this [compatibility list](https://box86.org/app/).

@@ -1,7 +1,8 @@
 ---
 title: Gallery
 ---
-# Gallery {#gallery}
+
+## Gallery {#gallery}
 
 Here is a showcase of some games, all running using box86 (and sometimes Wine too).
 

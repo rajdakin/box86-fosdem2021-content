@@ -4,6 +4,8 @@ title: "Performances"
 
 # Box86 performances {#perfs}
 
+[TODO: update for 2022, data is from last Fosdem]
+
 How to measure an emulator performances? Because it doesn't run on itself, a raw performance measurement is not
 possible. What is possible is comparing how 2 builds of the same program perform: one native and one on the emulated
 architecture. While compilation options and efficiency of the compiler on targetted architecture may still introduce
